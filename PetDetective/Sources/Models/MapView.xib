@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapView" customModule="PetDetective" customModuleProvider="target">
+            <connections>
+                <outlet property="addressLabel" destination="eeD-jZ-yT6" id="kbB-N5-z04"/>
+                <outlet property="naverMapView" destination="gUr-DS-l4W" id="rdI-sF-OlG"/>
+                <outlet property="setLocationButton" destination="HTP-kW-CIo" id="WD4-Nn-HGQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUr-DS-l4W" customClass="NMFNaverMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="746"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dl7-94-NyJ">
+                    <rect key="frame" x="0.0" y="746" width="414" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeD-jZ-yT6">
+                            <rect key="frame" x="20" y="46" width="374" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTP-kW-CIo">
+                            <rect key="frame" x="20" y="66" width="374" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="EVg-EU-LdG"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="위치 설정"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="HTP-kW-CIo" secondAttribute="trailing" constant="20" id="9ME-aY-2TD"/>
+                        <constraint firstAttribute="trailing" secondItem="eeD-jZ-yT6" secondAttribute="trailing" constant="20" id="Ecg-2K-tZC"/>
+                        <constraint firstItem="HTP-kW-CIo" firstAttribute="leading" secondItem="dl7-94-NyJ" secondAttribute="leading" constant="20" id="Fng-PO-COJ"/>
+                        <constraint firstAttribute="height" constant="150" id="JUR-Ea-YPU"/>
+                        <constraint firstAttribute="bottom" secondItem="HTP-kW-CIo" secondAttribute="bottom" constant="40" id="PhO-bb-FXg"/>
+                        <constraint firstItem="HTP-kW-CIo" firstAttribute="top" secondItem="eeD-jZ-yT6" secondAttribute="bottom" constant="20" id="SO2-0k-RXd"/>
+                        <constraint firstAttribute="trailing" secondItem="eeD-jZ-yT6" secondAttribute="trailing" constant="20" id="Zv0-rr-fQf"/>
+                        <constraint firstItem="eeD-jZ-yT6" firstAttribute="leading" secondItem="dl7-94-NyJ" secondAttribute="leading" constant="20" id="dFs-o5-KjU"/>
+                        <constraint firstItem="eeD-jZ-yT6" firstAttribute="leading" secondItem="dl7-94-NyJ" secondAttribute="leading" constant="20" id="nQJ-pr-uuF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dl7-94-NyJ" firstAttribute="top" secondItem="gUr-DS-l4W" secondAttribute="bottom" id="6Dx-L2-YBP"/>
+                <constraint firstItem="gUr-DS-l4W" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Gvd-Pf-1Cq"/>
+                <constraint firstItem="dl7-94-NyJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="J0g-HT-k8P"/>
+                <constraint firstItem="dl7-94-NyJ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Rpx-3t-1A7"/>
+                <constraint firstAttribute="bottom" secondItem="dl7-94-NyJ" secondAttribute="bottom" id="nBr-g9-jbg"/>
+                <constraint firstItem="gUr-DS-l4W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wo9-cL-G4W"/>
+                <constraint firstItem="gUr-DS-l4W" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="xb0-Yc-iEm"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
