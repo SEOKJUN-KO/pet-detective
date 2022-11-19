@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64264896/202856439-cfc891aa-67fd-42f5-bfd3-3b604d26f051.png" alt="PetDetective logo" height="80">
+  <img src="https://user-images.githubusercontent.com/64264896/202858429-44405b3b-411e-4187-9253-1c71abf4a59a.png" alt="PetDetective logo" height="80">
 </p>
 
 <p align="center">
