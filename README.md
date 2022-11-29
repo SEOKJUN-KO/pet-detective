@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-    Pet Detective는 ...
-</p>
-
-<p align="center">
   Ko Seok Jun
 </p>
 
