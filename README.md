@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Ko Seok Jun
+  Ko Seok Jun, devjohnpark, + two backend developer
 </p>
 
 ## Content
@@ -38,4 +38,4 @@
 The server is not working because of the cost problem.
 
 ## Design
-All the icons were made by Me.
+All the icons were made by devjohnpark.
