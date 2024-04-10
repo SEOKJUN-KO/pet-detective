@@ -36,19 +36,19 @@
 
 ### 앱 주요 기능 GIF
 
-인공지능(자동 견의 종, 털색 분류) 체크 및 목격 신고글 생성
+Teachable Machine을 활용하여 이미지로 개의 종, 털색을 구분하여 자동 입력
 
 ![인공지능_체크_및_글_생성_MP4_AdobeExpress](https://user-images.githubusercontent.com/109328441/183868749-92646438-6914-4386-afd7-d63b85670184.gif)
 
 <br/>
 
-긴급구조 맵뷰(의뢰 신고)
+맵뷰를 활용하여, 사용자 주변에서 생성된 유실견에 대한 정보를 가시화
 
 ![긴급구조_의뢰_AdobeExpress](https://user-images.githubusercontent.com/109328441/183868752-3eda1d27-90ae-40bd-89b2-9fceec5d5775.gif)
 
 <br/>
 
-푸쉬알림 읽기 및 동작
+등록한 유실견과 같은 품종과 털색을 갖는 정보가 생성 됐을 경우, Push 알림을 주어 게시글 정보를 매번 확인하지 않아도 되게 함
 
 ![푸쉬알림_읽음_동작_MP4_AdobeExpress](https://user-images.githubusercontent.com/109328441/183868730-8ab1fccc-6fa9-4389-9c29-a5ecc22ed64b.gif)
 
