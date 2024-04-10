@@ -3,16 +3,13 @@
 </p>
 
 <p align="center">
-  Pet Detective
+  Pet Detective<br/>
+  위치 기반 기능과 알림 기능 인공지능 등을 활용하여, 유실 반려동물을 찾는 새로운 서비스의 앱
 </p>
 
 <p align="center">
-  Ko Seok Jun, devjohnpark, + two backend developer
+  Ko Seok Jun, devjohnpark, kbm6609, wonjongseo
 </p>
-
-## 위치 기반 기능과 알림 기능 인공지능 등을 활용하여, 유실 반려동물을 찾는 새로운 서비스의 앱
-<br/>
-
 
 ## Screenshots
 <pre>
@@ -26,11 +23,12 @@
 - [x] Naver Map
 - [x] Teachable Machine ([Teachable Machine](https://teachablemachine.withgoogle.com/))
 - [X] MVC Structure
+
 <br/>
 
 ## Building and Running
 비용 문제로 서버를 동작시키지 않고 있습니다.
-<br/>
+<br/><br/>
 
 ## 담당 작업
 1. 유실·유기견 게시글 CRUD
@@ -41,9 +39,9 @@
    - 무한 스크롤
 3. APNS
    - APNS 세팅
-   - Push 알림 동작코드
+   - Push 알림 동작
 4. 로그인 / 회원가입
-<br/>
+<br/><br/>
 
 ### 앱 주요 기능 GIF
 
