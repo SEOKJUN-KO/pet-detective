@@ -17,7 +17,6 @@
 - [x] APNS
 - [x] Naver Map
 - [x] Teachable Machine ([Teachable Machine](https://teachablemachine.withgoogle.com/))
-- [X] MVC Structure
 
 <br/>
 
